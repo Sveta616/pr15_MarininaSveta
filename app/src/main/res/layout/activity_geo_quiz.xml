@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GeoQuiz"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="330dp"
+        android:text="@string/vopr6"
+        android:textColor="@color/black"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="50dp">
+
+        <Button
+            android:id="@+id/true_button"
+            android:layout_width="123dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/shape"
+            android:backgroundTint="#BAB4B4"
+            android:gravity="center"
+            android:text="@string/tr"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/false_button"
+            android:layout_width="123dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/shape"
+            android:backgroundTint="#BAB4B4"
+            android:gravity="center"
+            android:text="@string/fl"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

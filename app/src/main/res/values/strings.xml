@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">pr15</string>
+    <string name="vopr6">Всего 6 материков на планете земля?</string>
+    <string name="tr">Правда</string>
+    <string name="fl">Неправда</string>
+    <string name="correct_toast">Вы ответили верно!</string>
+    <string name="incorrect_toast">У вас неверный ответ!</string>
+    <string name="sign">Войти</string>
+    <string name="mistake">Ошибка</string>
+    <string name="zap">" вас есть незаполненные поля"</string>
+    <string name="ok">Ok</string>
+    <string name="par">Проверьте правильность введёных данных (логина и пароля)</string>
+</resources>
