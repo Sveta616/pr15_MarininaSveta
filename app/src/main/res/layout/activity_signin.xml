@@ -2,16 +2,18 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/but"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".signin"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".Signin">
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="60dp"
-        android:layout_marginTop="100dp"
         android:layout_marginLeft="105dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="60dp"
         android:text="Авторизоваться"
         android:textAlignment="center"
         android:textColor="@color/black"
@@ -37,21 +39,22 @@
         android:hint="Пароль"
         android:paddingLeft="20dp"
         android:textColorHint="@color/black" />
+
     <LinearLayout
-        android:layout_marginTop="170dp"
         android:layout_width="match_parent"
-        android:orientation="horizontal"
-        android:layout_height="50dp">
+        android:layout_height="50dp"
+        android:layout_marginTop="170dp"
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/true_button"
             android:layout_width="230dp"
             android:layout_height="50dp"
-            android:onClick="signin"
             android:layout_gravity="center"
             android:layout_marginLeft="90dp"
             android:background="@drawable/shape"
             android:backgroundTint="@color/gray"
+            android:onClick="signin"
             android:text="@string/sign"
             android:textColor="@color/black"
             android:textSize="17sp"

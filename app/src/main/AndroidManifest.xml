@@ -22,7 +22,7 @@
             android:label="@string/app_name"
             android:theme="@style/Theme.Pr15"/>
             <activity
-            android:name=".signin"
+            android:name=".Signin"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
